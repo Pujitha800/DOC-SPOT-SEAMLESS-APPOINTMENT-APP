@@ -1,0 +1,1 @@
+// authDoctor.js - Placeholder content

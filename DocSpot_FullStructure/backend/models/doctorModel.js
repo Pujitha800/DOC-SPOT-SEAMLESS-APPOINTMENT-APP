@@ -1,0 +1,1 @@
+// doctorModel.js - Placeholder content

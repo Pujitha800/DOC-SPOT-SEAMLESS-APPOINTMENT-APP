@@ -1,0 +1,1 @@
+// AppContext.jsx - Placeholder content

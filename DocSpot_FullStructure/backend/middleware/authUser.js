@@ -1,0 +1,1 @@
+// authUser.js - Placeholder content

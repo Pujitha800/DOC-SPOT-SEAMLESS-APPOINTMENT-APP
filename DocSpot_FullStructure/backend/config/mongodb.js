@@ -1,0 +1,1 @@
+// mongodb.js - Placeholder content

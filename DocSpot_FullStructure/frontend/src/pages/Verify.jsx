@@ -1,0 +1,1 @@
+// Verify.jsx - Placeholder content

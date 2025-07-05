@@ -1,0 +1,1 @@
+// RelatedDoctors.jsx - Placeholder content
