@@ -43,17 +43,7 @@
 - Monitor users and platform activities
 - Resolve disputes and maintain compliance
 
----
 
-## 📚 Features
-
-- ✅ Real-time doctor availability
-- ✅ Advanced filtering (specialty, location, time)
-- ✅ Appointment status management
-- ✅ File/document uploads (e.g. reports or insurance)
-- ✅ Secure login with role-based access
-- ✅ Admin dashboard for governance
-- ✅ Clean and responsive UI for all user types
 
 ---
 
@@ -71,12 +61,34 @@ Meanwhile,
 - **Admin** approves doctor profiles and ensures platform quality.
 
 ---
+📁 Folder Structure (Suggested)
+bash
+Copy
+Edit
+docspot/
+│
+├── frontend/                 # React Frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/       # Axios API calls
+│   │   └── App.js
+│   └── package.json
+│
+├── backend/                 # Express Backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── server.js
+│
+├── .env
+├── README.md
+└── package.json
+🔐 Security & Authentication
+Passwords hashed using bcrypt
 
-## 🏗️ Architecture
+Sessions managed via JWT (JSON Web Tokens)
 
-```plaintext
-Client (React.js + Axios)
-   ⬇️ RESTful APIs
-Server (Node.js + Express)
-   ⬇️
-MongoDB (Data Persistence)
+Role-based route protection (patient, doctor, admin)
