@@ -62,10 +62,9 @@ Meanwhile,
 
 ---
 📁 Folder Structure (Suggested)
-
 docspot/
 │
-├── frontend/                 # React Frontend
+├── client/                 # React Frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -74,7 +73,7 @@ docspot/
 │   │   └── App.js
 │   └── package.json
 │
-├── backend/                 # Express Backend
+├── server/                 # Express Backend
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
@@ -84,9 +83,3 @@ docspot/
 ├── .env
 ├── README.md
 └── package.json
-🔐 Security & Authentication
-Passwords hashed using bcrypt
-
-Sessions managed via JWT (JSON Web Tokens)
-
-Role-based route protection (patient, doctor, admin)
