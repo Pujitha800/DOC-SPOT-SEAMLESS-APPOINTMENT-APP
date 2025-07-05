@@ -62,9 +62,7 @@ Meanwhile,
 
 ---
 📁 Folder Structure (Suggested)
-bash
-Copy
-Edit
+
 docspot/
 │
 ├── frontend/                 # React Frontend
